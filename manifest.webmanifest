@@ -1,0 +1,14 @@
+{
+  "name": "ATTEMPO Choir · Gestión",
+  "short_name": "ATTEMPO",
+  "description": "Clientes, actuaciones, presupuestos, disponibilidad, tareas y gastos de ATTEMPO Choir.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbfaf8",
+  "theme_color": "#1b1a18",
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
