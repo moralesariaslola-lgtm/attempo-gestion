@@ -43,6 +43,8 @@ body{background:#f4edf2}header{background:#ffffff;border-bottom:1px solid #e6dce
 @media(prefers-reduced-motion:reduce){.hub-tile:hover{transform:none}}
 @media print{body,.card,.dialog{background:#fff;color:#000}.welcome{background:#fff;color:#000}}
 
+
+.calendar-legend{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0 16px}.calendar-legend>span,.calendar-status{padding:7px 11px;border-radius:9px;font-size:12px;font-weight:650;display:inline-block;border:1px solid transparent}.calendar-legend b{margin-right:4px}.cal-confirmado{background:#f9dce9!important;color:#7b1e4d!important;border-color:#c65388!important}.cal-pendiente{background:#fff0ce!important;color:#6b4709!important;border-color:#bb831c!important}.cal-ensayo{background:#ebe2ff!important;color:#4b2c82!important;border-color:#8a65c2!important}.calendar-event.cal-confirmado{border-left:3px solid #c65388}.calendar-event.cal-pendiente{border-left:3px dashed #bb831c}.calendar-event.cal-ensayo{border-left:3px double #8a65c2}.calendar-agenda{border-left-width:4px}.cal-border-confirmado{border-left-color:#c65388}.cal-border-pendiente{border-left-color:#bb831c}.cal-border-ensayo{border-left-color:#8a65c2}.calendar-status{margin-bottom:12px}.calendar-event b{font-size:10px}.calendar-event:focus-visible{outline:2px solid #151115;outline-offset:2px}
 </style>
 <script src="./config.js"></script>
 <script src="./vendor/supabase.min.js"></script>
@@ -54,6 +56,6 @@ body{background:#f4edf2}header{background:#ffffff;border-bottom:1px solid #e6dce
 <nav class="mobile-nav" id="mobileNav" style="display:none" aria-label="Secciones"></nav>
 <div id="overlay" class="overlay" role="presentation" onclick="if(event.target===this)app.close()"><div id="dialogPanel" class="dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="dialog-top"><button id="dialogBack" class="dialog-back" style="visibility:hidden" onclick="app.sheetBack()">‹ Volver</button><h2 id="modalTitle"></h2><button type="button" class="iconclose" onclick="app.close()" aria-label="Cerrar">Cerrar</button></div><div id="modalBody"></div></div></div>
 <aside id="appUpdateBanner" class="app-update" role="status" aria-live="polite" hidden><div><strong id="appUpdateTitle">Hay una actualización disponible</strong><p id="appUpdateText">Actualiza ATTEMPO desde aquí para utilizar la nueva versión.</p></div><div class="app-update-actions"><button class="btn primary" id="appUpdateButton" onclick="app.applyAppUpdate()">Actualizar ahora</button><button class="btn" id="appUpdateLater" onclick="app.dismissAppUpdate()">Más tarde</button></div></aside>
-<script src="./app.js?v=20261103-10" defer></script>
+<script src="./app.js?v=20261103-12" defer></script>
 </body>
 </html>
